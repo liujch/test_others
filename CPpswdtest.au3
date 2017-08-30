@@ -1,0 +1,32 @@
+#include <AutoItConstants.au3>
+MouseClick($MOUSE_CLICK_LEFT, 1154, 264, 3, 1)
+Send("^c")
+MouseClick($MOUSE_CLICK_LEFT, 94, 69, 1, 1)
+Sleep(500)
+Send("^v")
+
+MouseClick($MOUSE_CLICK_LEFT, 1300, 379, 3, 1)
+Send("^c")
+MouseClick($MOUSE_CLICK_LEFT, 231, 158, 1 ,1)
+Sleep(0)
+Send("^v")
+Send("{TAB}")
+Send("{BS}")
+Send("{TAB}")
+Send("{TAB}")
+Send("{BS}")
+
+MouseClick($MOUSE_CLICK_LEFT, 1116, 292, 3, 1)
+Send("^c")
+MouseClick($MOUSE_CLICK_LEFT, 268, 255, 1 ,1)
+Sleep(0)
+Send("^v")
+
+MouseMove ( 1031, 38 ,1 )
+MouseClick($MOUSE_CLICK_LEFT)
+Send("^n")
+Sleep(0)
+MouseClick($MOUSE_CLICK_LEFT, 670, 66)
+Send("^v")
+Send("{ENTER}")
+
